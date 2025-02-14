@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createMockStore should dispatch action 1`] = `
+{
+  "value": 3,
+}
+`;
+
+exports[`createMockStore should dispatch async thunk action 1`] = `
+{
+  "value": 3,
+}
+`;
+
+exports[`createMockStore should return reducer state 1`] = `
+{
+  "value": 0,
+}
+`;
+
+exports[`createMockStore should return reducer state snapshot by action type 1`] = `
+{
+  "reducerSliceA/setValue": {
+    "value": 8,
+  },
+}
+`;
+
+exports[`createMockStore should return reducer state snapshots 1`] = `
+[
+  {
+    "reducerSliceA/setValue": {
+      "value": 7,
+    },
+  },
+  {
+    "reducerSliceA/setValue": {
+      "value": 7,
+    },
+  },
+  {
+    "reducerSliceA/reset": {
+      "value": 0,
+    },
+  },
+  {
+    "reducerSliceA/reset": {
+      "value": 0,
+    },
+  },
+]
+`;
+
+exports[`createMockStore should return root state 1`] = `
+{
+  "reducerSliceA": {
+    "value": 0,
+  },
+  "reducerSliceB": {
+    "value": "",
+  },
+}
+`;
+
+exports[`createMockStore should return root state snapshot by action type 1`] = `
+{
+  "reducerSliceA/setValue": {
+    "reducerSliceA": {
+      "value": 6,
+    },
+    "reducerSliceB": {
+      "value": "",
+    },
+  },
+}
+`;
+
+exports[`createMockStore should return root state snapshots 1`] = `
+[
+  {
+    "reducerSliceA/setValue": {
+      "reducerSliceA": {
+        "value": 5,
+      },
+      "reducerSliceB": {
+        "value": "",
+      },
+    },
+  },
+  {
+    "reducerSliceA/setValue": {
+      "reducerSliceA": {
+        "value": 5,
+      },
+      "reducerSliceB": {
+        "value": "setValue",
+      },
+    },
+  },
+  {
+    "reducerSliceA/reset": {
+      "reducerSliceA": {
+        "value": 0,
+      },
+      "reducerSliceB": {
+        "value": "setValue",
+      },
+    },
+  },
+  {
+    "reducerSliceA/reset": {
+      "reducerSliceA": {
+        "value": 0,
+      },
+      "reducerSliceB": {
+        "value": "reset",
+      },
+    },
+  },
+]
+`;
+
+exports[`createMockStore should return state 1`] = `
+{
+  "reducerSliceA": {
+    "value": 4,
+  },
+  "reducerSliceB": {
+    "value": "setValue",
+  },
+}
+`;
+
+exports[`createMockStore should set reducer state 1`] = `
+{
+  "value": 2,
+}
+`;
+
+exports[`createMockStore should set root state 1`] = `
+{
+  "reducerSliceA": {
+    "value": 1,
+  },
+  "reducerSliceB": {
+    "value": "test",
+  },
+}
+`;
