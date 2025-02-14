@@ -12,6 +12,7 @@ module.exports = {
   },
   silent: true,
   testEnvironment: 'node',
+  testPathIgnorePatterns: ['examples'],
   transform: {
     '^.+.tsx?$': ['ts-jest', {}],
   },
