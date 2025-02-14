@@ -10,8 +10,10 @@ module.exports = {
       statements: 90,
     },
   },
+  silent: true,
   testEnvironment: 'node',
   transform: {
     '^.+.tsx?$': ['ts-jest', {}],
   },
+  verbose: true,
 }
