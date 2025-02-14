@@ -19,10 +19,8 @@ jobs:
         run: npm ci
       - name: Lint
         run: npm run lint
-      - name: Build
-        run: npm run build
-      - name: Link
-        run: npm link rtk-mock-store
       - name: Test
         run: npm run test:coverage
+      - name: Build
+        run: npm run build
   
